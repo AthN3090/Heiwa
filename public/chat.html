@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+
+        </title>
+    </head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/front-css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet"> 
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./scripts/scripts.js" ></script>
+    <body>
+        <!-- LOADING SCREEN START-->
+        <div class="load-screen">
+            
+            <center>
+             <div class="center-block">
+                 <img class="cat" src="./Images/catg.gif">
+                 <br><br>
+                 <img class="dots" src="./Images/dots.gif"> 
+                 <p style="font-family:quicksand;"></p>
+             </div>
+            </center>
+         </div>
+         <!-- LOADING SCREEN END-->
+         <div class="navbar">
+            <center><p style="letter-spacing:3px;font-family: Knewave;margin: 0px 0px;font-size: 42px;color: white;">Heiwa</p></center>
+
+        </div>
+        <!-- chatbox-->
+         <div class="container">
+         
+         <div class = "chat-box">
+             <p class="match-name"> krish</p><br>
+            <p class="match-info"> #anxiety #insomnia #lonely  </p>
+             <button class="end-conv" onclick="chat_end()">End</button>
+             <div class="msg-box">
+                <div class="rec-box"> 
+                    <p class="rec-name">krish</p><p class="rec-msg">Hello aman</p>
+                </div>
+                
+                <div class="sen-box">
+                    <p class="sen-name">Aman</p><p class="sen-msg"> Hello krish</p></div>
+                </div>
+             <div class="chat-buttons">
+                 <input type="text" id="text" class="msg" placeholder="Enter your message">
+                 <button class="send-msg" onclick="send_msg()">
+                     Send
+                 </button>
+             </div>
+            </div>
+         </div>
+         <!-- chatbox ends-->
+    </body>
+</html>

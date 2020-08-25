@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/front-css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet"> 
+
+    <body>  
+      
+    <!-- LOADING SCREEEN START-->
+        <div class="load-screen">
+            
+           <center>
+            <div class="center-block">
+                <img class="cat" src="./Images/catg.gif">
+                <br><br>
+                <img class="dots" src="./Images/dots.gif"> 
+                <p style="font-family:quicksand;"></p>
+            </div>
+           </center>
+        </div>
+        <!-- LOADING SCREEN END-->
+        
+        <!-- NAVIGATION BAR START-->
+        <div class="navbar">
+            <center><p style="letter-spacing:3px;font-family: Knewave;margin: 0px 0px;font-size: 42px;color: white;">Heiwa</p></center>
+
+        </div>
+        <!-- NAVIAGTION BAR END-->
+        <div class="question-box" >
+            <h1 id="question" style="font-family:quicksand; font-size:60px;"> Hello Champ! <br> Do you have a Nickname ?</h1>
+            <input id="nickname" type="text" placeholder="Enter your Nickname"><br><br><br>
+            <button class="next" id="next">
+                <img style="height: 80px;" src="./Images/next.png">
+            </button>
+        </div>
+        <div class="question-box2">
+            <h1 id="question" style="font-family:quicksand; font-size:60px;"> Choose the keywords you would<br>use to describe your mental health </h1>
+            <div class="option-box">
+                <button class="option" id="1"  onclick="changeState(this.id);"> Lack of sleep </button>
+                <button class="option" id="2"  onclick="changeState(this.id);"> Suicidal thoughts</button>
+                <button class="option" id="3"  onclick="changeState(this.id);"> Loneliness </button>
+                <button class="option" id="4"  onclick="changeState(this.id);">Emptiness</button>
+                <button class="option" id="5"  onclick="changeState(this.id);"> Anxiety </button>
+                <button class="option" id="6"  onclick="changeState(this.id);"> hopeless</button>
+                <button class="option" id="7"  onclick="changeState(this.id);"> drugs </button>
+                <button class="option" id="8"  onclick="changeState(this.id);"> Insomnia</button>
+                <button class="option" id="9"  onclick="changeState(this.id);"> Addiction</button>
+                <button class="option" id="10" onclick="changeState(this.id);"> Lost interest</button>
+                <button class="option" id="11" onclick="changeState(this.id);"> Low self-esteem</button>
+                <button class="option" id="12" onclick="changeState(this.id);"> Negativity</button>
+                <button class="option" id="13" onclick="changeState(this.id);"> Self-doubt</button>
+                <button class="option" id="14" onclick="changeState(this.id);"> Unstable </button>
+                <button class="option" id="15" onclick="changeState(this.id);"> Deep thoughts </button>
+                <button class="option" id="16" onclick="changeState(this.id);"> Crying </button>
+                
+            </div>
+            <br>
+            <button class="next" id="submit" onclick="submitDetails();">
+                <img style="height: 80px;" src="./Images/next.png">
+            </button>
+        </div>
+        <!-- CHAT BOX-->
+        <div class="container">
+         
+            <div class = "chat-box">
+                <p class="match-name" id="match_name"> </p><br>
+               <p class="match-info" id="match_info"> </p>
+                <button class="end-conv" onclick="chat_end()">End</button>
+                <div class="msg-box" id="text-box">
+                  <!-- <div class="rec-box"> 
+                       <p class="rec-name">krish</p><p class="rec-msg">Hello aman</p>
+                   </div>
+                   
+                   <div class="sen-box">
+                       <p class="sen-name">Aman</p><p class="sen-msg"> Hello krish</p>
+                    </div>-->
+                   </div>
+                <div class="chat-buttons">
+                    <input type="text" id="text" class="msg" placeholder="Enter your message">
+                    <button class="send-msg" onclick="send_msg()">
+                        Send
+                    </button>
+                </div>
+               </div>
+            </div>
+            <!-- CHAT BOX-->
+    </body>
+    <script src="./scripts/scripts.js" ></script>
+
+</html>
