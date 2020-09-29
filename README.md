@@ -18,9 +18,8 @@
 ![Keys](/Screenshots/questions.png)
 
 
-- As per his/her selections, he/she will matched with a few people who has same type of isuue.
-- percentage will be provided as per match
-- After the user select the person he/she will be taken to the personal chat box
+- As per his/her selections, he/she will matched with a person having similar issues.
+- After the user select the person he/she will be taken to the personal chat box.
 
 ![Chat](/Screenshots/chat.png)
 
