@@ -1,5 +1,5 @@
 # Heiwa
-## INTRODUCTION
+## Introduction
 - Mental health problems are increasing day by day due to COVID-19, it is in fact at its very peak. People have been neglecting and avoiding mental health for a very long time. Mental health is just like any other physical problem which shouldn't be avoided and should be properly treated.
 - Mental health includes our emotional, psychological and social well-being. It affects how we think, feel and act. Mental health is important at every stage of life. Over the course of your life, if you experience mental health problems, your thinking, mood, the behaviour could be affected. Many factors contribute to mental health problems, including **biological factors, such as trauma or abuse Family history of mental health problems.**
 - This condition is reaching at it's worst state during the lockdowns and this has left many of us feeling lonely and depressed. Understanding the seriousness of this isuue, we wanted to resolve this by creating a platform were people with similar mental health issue can connect and talk their heart out. Though its a major issue, a better mental health state can be achieved easily by simply discussing your problems with someone who has similar issues.
