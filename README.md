@@ -21,7 +21,7 @@
 - As per his/her selections, he/she will matched with a person having similar issues.
 - After the user select the person he/she will be taken to the personal chat box.
 
-![Chat](/Screenshots/chat.png)
+![Chat](/Screenshots/chat2.png)
 
 **(the server will not store any type of data) Providing full privacy.**
 ## LIVE SITE :
