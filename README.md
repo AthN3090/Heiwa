@@ -5,9 +5,14 @@
 - This condition is reaching at it's worst state during the lockdowns and this has left many of us feeling lonely and depressed. Understanding the seriousness of this isuue, we wanted to resolve this by creating a platform were people with similar mental health issue can connect and talk their heart out. Though its a major issue, a better mental health state can be achieved easily by simply discussing your problems with someone who has similar issues.
 - People find it difficult to do so without being afraid of being judged. So, here at Heiwa, people can share their problems with total strangers having similar issues and guide each other through tough times.
 ## How it works:
+
 - User is asked to enter a nickname
+
 ![Homepage](/Screenshots/home-page.png)
+
 - Then user provided with a list of mental health issue and problems foem which he/she can choose as many as his/her wants.
+
+![Keys](/Screenshots/questions.png)
 - As per his/her selections, he/she will matched with a few people who has same type of isuue.
 - percentage will be provided as per match
 - After the user select the person he/she will be taken to the personal chat box
