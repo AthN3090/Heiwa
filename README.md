@@ -8,14 +8,22 @@
 
 - User is asked to enter a nickname
 
+
 ![Homepage](/Screenshots/home-page.png)
+
 
 - Then user provided with a list of mental health issue and problems foem which he/she can choose as many as his/her wants.
 
+
 ![Keys](/Screenshots/questions.png)
+
+
 - As per his/her selections, he/she will matched with a few people who has same type of isuue.
 - percentage will be provided as per match
 - After the user select the person he/she will be taken to the personal chat box
+
+![Chat](/Screenshots/chat1.png)
+
 **(the server will not store any type of data) Providing full privacy.**
 ## LIVE SITE :
 - https://heiwa.herokuapp.com/
