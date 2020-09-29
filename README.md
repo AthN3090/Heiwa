@@ -6,7 +6,7 @@
 - People find it difficult to do so without being afraid of being judged. So, here at Heiwa, people can share their problems with total strangers having similar issues and guide each other through tough times.
 ## How it works:
 - User is asked to enter a nickname
-[Homepage](/Screenshots/home-page.png)
+![Homepage](/Screenshots/home-page.png)
 - Then user provided with a list of mental health issue and problems foem which he/she can choose as many as his/her wants.
 - As per his/her selections, he/she will matched with a few people who has same type of isuue.
 - percentage will be provided as per match
