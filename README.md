@@ -23,6 +23,14 @@
 
 ![Chat](/Screenshots/chat2.png)
 
+
+## Built With
+
+* [NodeJs](https://nodejs.org/)
+* [ExpressJs](https://expressjs.com/)
+* [Socket.io](https://socket.io/)
+* [Jquery](https://jquery.com/)
+
 **(the server will not store any type of data) Providing full privacy.**
 ## LIVE SITE :
 - https://heiwa.herokuapp.com/
