@@ -33,4 +33,4 @@
 **(the server will not store any type of data) Providing full privacy.**
 ## LIVE SITE :
 - https://heiwa.herokuapp.com/
-( NOTE: as there are no active users you won't find a match.)
+( NOTE: It will keep loading as there are no active users, you won't find a match. Suggestion: try to open application with two users or two browser tabs)
